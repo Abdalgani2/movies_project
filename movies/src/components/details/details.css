@@ -1,0 +1,54 @@
+.itemDetailsCard {
+    display: grid;
+    background-color: #F7F5F2;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+  }
+  
+.imgDetails {
+    height: 100%;
+    width: 90%;
+    border-right: 1px black solid;
+  }
+  
+  .titleDetails {
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:30px; 
+    max-height: 20%;
+    
+    
+  }
+  
+  .infoDetails {
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    /* font-size: 150%; */
+    
+    line-height:20px; 
+    
+  
+  }
+  .imgDetailsCard{
+    width: 90%;
+    
+    height: 90%;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 5px grey;
+  }
+  .backButton{
+    margin-bottom: 3px;
+    cursor: pointer;
+  }
+  
