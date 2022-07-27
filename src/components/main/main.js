@@ -31,7 +31,6 @@ const Main = () => {
               }}
               className="itemCard"
             >
-
               <div className="img">
                 <img className="imgCard" src={"https://image.tmdb.org/t/p/w500/" + elem.poster_path}></img>
               </div>
@@ -47,11 +46,9 @@ const Main = () => {
                     variant='contained'
                     onClick={() => { navigate(`/details`, { state: elem }); }}
                   >
-                    details
+                    Details
                   </Button></div>
               </div>
-
-
             </div>
           );
         })}

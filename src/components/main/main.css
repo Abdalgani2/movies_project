@@ -73,6 +73,7 @@
 .detalisButton1{
  
   cursor: pointer;
+  
  
 }
 .itemCard:hover{
@@ -80,7 +81,5 @@
   width: 32rem;
 }
 
-.left:hover + .right{
-  width: 100px;
-}
+
 
